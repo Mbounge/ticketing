@@ -3,6 +3,7 @@ import { app } from './app';
 
 // JWT_Key must be defined in k8s/deployment files before continuing
 const start = async () => {
+  console.log('Starting up!!!!!!!');
   if (!process.env.JWT_KEY) {
     throw new Error('JWT_KEY must be defined');
   }
