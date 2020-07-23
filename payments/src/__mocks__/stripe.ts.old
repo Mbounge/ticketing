@@ -1,0 +1,6 @@
+export const stripe = {
+  charges: {
+    // we are going to get back a primise which will automatically resolve itself
+    //create: jest.fn().mockResolvedValue({}),
+  },
+};
